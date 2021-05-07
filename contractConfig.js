@@ -2,7 +2,7 @@ const Web3 = require('web3');
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 const url = 'https://ropsten.infura.io/v3/1124db5b660d4ee69af5ef1b9871e890';
 
-const key = '0x67f6aff79c4e9b0339ec49890df31cb1ea107b2fdd777d73dfd2ea1ac5d2179c';
+const key = '';
 
 const deployContract = async() => {
     const provider = new HDWalletProvider([key], url);
